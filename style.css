@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------------- Navigation Bar ----------------- */
+
+
+.logo{
+    background-color: #6c7fb6;
+    
+    height: 100%;
+}
+
+.logo h1{
+    letter-spacing: 2px;
+    line-height: 209%;
+    color: white;
+    margin-left: 5%;
+}
+
+
+.menu ul{
+    list-style: none;
+    
+}
+
+.menu ul li{
+    background-color: #6c7fb6;
+    width: 130px;
+    height: 50px;
+    
+    
+    
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    float: right;
+    
+    position: relative;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu ul li:hover{
+    background-color: #5b6891;
+}
+
+.menu ul ul{
+    display: none;
+}
+
+.menu ul li:hover > ul{
+    display: block;
+    margin-right: 99%;
+    margin-top: -38.5%;
+}
+
+.navbar{
+    
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+
+}
+
+section{
+    height: 100vh;
+}
+
+
+/* ------------------- Home ----------------- */
+
+.home{
+    background-color: rgba(0, 0, 0, 0.988);
+}
+
+section#home{
+    background-image: url(./img/home.jpg);
+    background-position: bottom;
+    
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+.adopt  h1{
+    font-size: 150%;
+    letter-spacing: 3px;
+    
+    position: absolute;
+    top: 30%;
+    margin-left: 30%;
+    padding: 8px;
+    border: 3px solid black;
+    border-radius: 50px;
+    
+    
+}
+
+.adopt  h1 a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.adopt  h1:hover{
+    border: 3px solid white;
+    background-color: #6c7fb6;
+    
+    
+}
+
+.adopt  h1 a:hover{
+    color: white;
+    
+}
+
+/* ------------------- About ----------------- */
+
+.about{
+    background-color: #e0e0ea;
+    
+}
+
+section#about{
+    background-image: url(./img/about\ -\ Copy.jpg);
+    background-position: bottom;
+    background-position-x: left;
+    background-repeat: no-repeat;
+    background-size: 55%;
+}
+
+
+.who{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    position: relative;
+    top: 15%;
+    
+    text-align: center;
+}
+
+.who  h1{
+    color: #6c7fb6;
+}
+
+.who p{
+    margin-top: 8%;
+}
+
+.side-text{
+    width: 30%;
+    text-align: center;
+    position: relative;
+    top: 25%;
+    left: 60%;
+    letter-spacing: 3px;
+}
+
+.side-text h3{
+    color: #6c7fb6;
+}
+
+.side-text p{
+    margin-top: 20%;
+    
+}
+
+
+/* ------------------- Contact ----------------- */
+
+.contact{
+    background-color: white;
+    
+}
+
+section#contact{
+    background-image: url(./img/contact.jpg);
+    background-position: bottom;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.contact-us {
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: black;
+}
+
+.phone{
+    color: #6c7fb6;
+    margin-top: 20%;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 1.4rem;
+}
+
+.orar{
+    margin-top: 5%;
+    text-align: center;
+}
+
+span{
+    color:#6c7fb6 ;
+}
+
+.adress{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.adress h2{
+    margin-bottom: 5%;
+}
+
+.follow{
+    margin-top: 5%;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+    align-items: center;
+}
+
+.social img{
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-top: 80%;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 700px){
+
+    /* ------------------- Home ----------------- */
+
+    section#home{
+        background-image: url(./img/pexels-snapwire-730896.jpg);
+        background-position: bottom;
+        
+        background-position-x: center;
+        background-repeat: no-repeat;
+        background-size: 38%;
+        
+    }
+
+
+    .adopt  h1{
+        position: absolute;
+        left: 15%;
+        border: 3px solid white;
+    }
+
+    .adopt  h1  a{
+        color: white;
+    }
+
+    /* ------------------- About ----------------- */
+
+
+    
+    section#about{
+        background-image: url(./img/about\ -\ Copy.jpg);
+        background-position: bottom;
+        background-position-x: left;
+        background-repeat: no-repeat;
+        background-size: 30%;
+    }
+
+  
+
+    .side-text h3{
+        font-size: 2rem;
+    }
+
+    .side-text p{
+        font-size: 1.3rem;
+    }
+
+    /* ------------------- Contact ----------------- */
+
+    section#contact{
+        background-image: url(./img/contact.jpg);
+        background-position: bottom;
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-size: 40%;
+        
+    }
+
+    .contact{
+        background-image: url(./img/dog\ on\ phone.jpg);
+        background-position: bottom;
+        background-position-x: left;
+        background-repeat: no-repeat;
+        background-size: 40%;
+    }
+
+    .contact-us {
+        font-size: 1.3rem;
+        letter-spacing: 3px;
+        position: relative;
+      
+        text-align: center;
+        color: black;
+    }
+
+    .follow{
+        
+        text-align: center;
+    }
+    
+    .social{
+        display: flex;
+        justify-content: space-evenly;
+        width: 50%;
+        margin-left: 25%;
+        align-items: center;
+    }
+    
+    .social img{
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        
+        
+    }
+
+    .phone{
+        margin-top: 10%;
+    }
+
+    .social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    margin-left: 35%;
+    align-items: center;
+}
+}

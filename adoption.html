@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adoption</title>
+
+
+</head>
+
+<style>
+  input,
+  label {
+    margin: 5px 5px;
+    display: flex;
+  }
+
+  .formaddress {
+    /* margin: 30px auto; */
+    width: 300px;
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* position: absolute; */
+  }
+
+  /* body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #inputStreet {
+    width: 100%;
+  }
+
+  #inputCity {
+    width: 50%;
+  }
+
+  #inputState {
+    width: 15%;
+  }
+
+  #inputZip {
+    width: 28%;
+  }
+
+  #inputCounty {
+    width: 45%;
+  }
+
+  #inputCountry {
+    width: 50%;
+  }
+
+  .buttons {
+    bottom: 10px;
+  
+    } */
+</style>
+
+
+<body>
+
+
+  <form class="form1" action="" method="POST">
+    <div>
+      <label for="1name">First Name:</label>
+      <input type="text" name="1name" id="1name" placeholder="your first name" required>
+    </div>
+    <div>
+      <label for="2name">Last Name:</label>
+      <input type="text" name="2name" id="2name" placeholder="your last name" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="enter your email address" required>
+    </div>
+    <div>
+      <label for=petname>Name of Pet You Wish to Adopt:</label>
+      <input type="text" name="petname" id="petname">
+    </div>
+    <div>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" name="phone" id="phone">
+    </div>
+    
+
+  </form>
+  <form class="form2">
+    <div class="formaddress">
+      <P>Address:</P>
+      <p></p>
+      <input type="street" class="form-control" id="autocomplete" placeholder="Street">
+
+      <input type="city" class="form-control" id="inputCity" placeholder="City">
+
+      <input type="state" class="form-control" id="inputState" placeholder="State">
+
+      <input type="zip" class="form-control" id="inputZip" placeholder="Zip">
+
+      <input type="county" class="form-control" id="inputCounty" placeholder="County">
+
+      
+    </div>
+
+    <div class="buttons">
+      <button type="reset">Reset
+      </button>
+      <button type="submit">
+        Submit
+      </button>
+    </div>
+
+
+  </form>
+
+
+
+</body>
+
+</html>
